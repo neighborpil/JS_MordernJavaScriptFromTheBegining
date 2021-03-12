@@ -13,7 +13,7 @@ val = String([1, 2, ,3, 4, 5, 11]);
 // toString()
 val = (5).toString();
 val = (true).toString();
-
+됨
 // String to number
 val = Number('5');
 val = Number(true); // 1
@@ -42,7 +42,7 @@ console.log(typeof sum);
 const val3 = String(5);
 const val4 = 6;
 // const sum2 = val3 + val4; // 56 >> String으로 취급
-const sum2 = Number(val3 + val4); 
+const sum2 = Number(val3 + val4); // 56 number로 변환 
 
 console.log(sum2);
 console.log(typeof sum2);

@@ -48,3 +48,14 @@ console.log(typeof hobbies);
 console.log(typeof address);
 console.log(today);
 console.log(typeof today);
+
+// Numbers & Math Objects
+const num1 = 100;
+const num2 = 50;
+let val;
+
+// Simple math with numbers 
+val = num1 + num2;
+
+console.log(val)
+// 

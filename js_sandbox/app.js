@@ -82,20 +82,3 @@ numbers.push(6); // const array내의 값을 바꾸는 것은 가능하다
 
 console.log(numbers);
 
-/*
-# JS에는 2가지 타입의 데이터가 있다 
-## Primitive Data Type
- - String
- - Number
- - Boolean
- - Null
- - Undefined
- - Symbols (ES6)
-
-## Reference Data Type
- - Arrays
- - Object Literals
- - Functions
- - Dates
- - Anything Else
-*/

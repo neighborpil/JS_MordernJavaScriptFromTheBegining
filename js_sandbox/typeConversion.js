@@ -13,8 +13,9 @@ val = String([1, 2, ,3, 4, 5, 11]);
 // toString()
 val = (5).toString();
 val = (true).toString();
-됨
+
 // String to number
+
 val = Number('5');
 val = Number(true); // 1
 val = Number(false); // 0

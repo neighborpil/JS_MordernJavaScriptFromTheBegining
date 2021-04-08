@@ -56,6 +56,66 @@ let val;
 
 // Simple math with numbers 
 val = num1 + num2;
-
 console.log(val)
-// 
+
+val = num1 - num2;
+console.log(val)
+
+val = num1 * num2;
+console.log(val)
+
+val = num1 / num2;
+console.log(val)
+
+val = num1 % num2;
+console.log(val)
+
+// Math Object
+val = Math.PI;
+console.log(val)
+
+val = Math.E;
+console.log(val)
+
+// 반올림
+val = Math.round(2.4);
+console.log(val)
+
+// 올림
+val = Math.ceil(2.4);
+console.log(val)
+
+// 내림 
+val = Math.floor(2.4);
+console.log(val)
+
+val = Math.sqrt(64);
+console.log(val)
+
+val = Math.abs(-4);
+console.log(val)
+
+val = Math.pow(4, 2);
+console.log(val)
+
+val = Math.min(2, 33, 4, 51, 2, 1, -2);
+console.log(val)
+
+val = Math.max(2, 33, 4, 51, 2, 1, -2);
+console.log(val)
+
+// random 0 - 1
+val = Math.random();
+console.log(val)
+
+// 0-19
+val = Math.random() * 20;
+console.log(val)
+
+// 1-20
+val = Math.random() * 20 + 1;
+console.log(val)
+
+// 1-20
+val = Math.floor(Math.random() * 20 + 1) ;
+console.log(val)

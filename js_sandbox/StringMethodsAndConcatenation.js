@@ -79,7 +79,7 @@ console.log(val);
 val = str.replace('Brad', "Jack");
 console.log(val);
 
-// includes()
+// includes() : 문자열을 포함하는지 체크
 val = str.includes('Hello');
 console.log(val);
 val = str.includes('foo');
